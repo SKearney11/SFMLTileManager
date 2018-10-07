@@ -6,7 +6,7 @@
 #include "TileMap.cpp"
 #include "imgui.h"
 #include "imgui-SFML.h"
-
+ 
 void saveMap(int (&level)[128]);
 void loadMap(int (&level)[128], TileMap &map);
 
