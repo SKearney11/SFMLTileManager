@@ -20,6 +20,7 @@
 		D9ACBB7C215FDA7900320A1D /* desert.png in Resources */ = {isa = PBXBuildFile; fileRef = D9ACBB7B215FDA7900320A1D /* desert.png */; };
 		D9ACBB7F215FE13300320A1D /* TileMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9ACBB7D215FE13300320A1D /* TileMap.cpp */; };
 		D9ACBB81215FE71300320A1D /* tileset.png in Resources */ = {isa = PBXBuildFile; fileRef = D9ACBB80215FE71300320A1D /* tileset.png */; };
+		D9E3AF75216E3C39008DC111 /* json11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9E3AF74216E3C39008DC111 /* json11.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		D9ACBB7B215FDA7900320A1D /* desert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = desert.png; sourceTree = "<group>"; };
 		D9ACBB7D215FE13300320A1D /* TileMap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TileMap.cpp; sourceTree = "<group>"; };
 		D9ACBB80215FE71300320A1D /* tileset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tileset.png; sourceTree = "<group>"; };
+		D9E3AF73216E3C39008DC111 /* json11.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = json11.hpp; sourceTree = "<group>"; };
+		D9E3AF74216E3C39008DC111 /* json11.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = json11.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				D9ACBB66215FD69900320A1D /* ResourcePath.hpp */,
 				D9ACBB67215FD69900320A1D /* main.cpp */,
 				D9ACBB7D215FE13300320A1D /* TileMap.cpp */,
+				D9E3AF74216E3C39008DC111 /* json11.cpp */,
+				D9E3AF73216E3C39008DC111 /* json11.hpp */,
 				D9ACBB69215FD69900320A1D /* Resources */,
 				D9ACBB62215FD69900320A1D /* Supporting Files */,
 			);
@@ -206,6 +211,7 @@
 				D9ACBB68215FD69900320A1D /* main.cpp in Sources */,
 				D974EEE121613C8000908223 /* imgui-SFML.cpp in Sources */,
 				D974EEDF21613C8000908223 /* imgui_widgets.cpp in Sources */,
+				D9E3AF75216E3C39008DC111 /* json11.cpp in Sources */,
 				D974EEDD21613C8000908223 /* imgui.cpp in Sources */,
 				D9ACBB7F215FE13300320A1D /* TileMap.cpp in Sources */,
 				D974EEDE21613C8000908223 /* imgui_draw.cpp in Sources */,

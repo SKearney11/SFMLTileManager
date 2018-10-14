@@ -6,7 +6,9 @@
 #include "TileMap.cpp"
 #include "imgui.h"
 #include "imgui-SFML.h"
- 
+#include "json11.hpp"
+
+
 void saveMap(int (&level)[128]);
 void loadMap(int (&level)[128], TileMap &map);
 
@@ -107,6 +109,8 @@ int main()
         
         //guibutton code
         ImGui::Begin("Save/Load");
+        ImGui::Text("Arrow Keys to select tile.");
+        ImGui::Text("Enter key to change tile");
         if (ImGui::Button("Save Map")) {
             saveMap(level);
             std::cout << "Map Saved";
@@ -115,8 +119,6 @@ int main()
             loadMap(level, map);
             std::cout << "Map Loaded";
         }
-        
-        
         // draw the map
         window.clear();
         window.draw(map);
@@ -151,5 +153,4 @@ void loadMap(int (&level)[128], TileMap &map){
     dataFile.close();
     if (!map.load(resourcePath()+"tileset.png", sf::Vector2u(32, 32), level, 16, 8))
         return -1;
-    std::cout << "Map Loaded" << std::endl;
 }
